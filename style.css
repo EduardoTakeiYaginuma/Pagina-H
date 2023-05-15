@@ -1,3 +1,13 @@
+*{
+   font-family: 'Poppins', sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -8,13 +18,13 @@ body {
  } */
 
 
-  header {
+  /* header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-  }
+  } */
   
-  nav ul {
+  /* nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -29,8 +39,75 @@ body {
   
   nav ul li:last-child {
     margin-right: 0;
+  } */
+
+  /* nav{
+   background-color: #333;
+   overflow:hidden;
+   position: fixed;
+   width: 100%;
   }
 
+  nav a{
+   color: #fff;
+   float: right;
+   text-decoration: none;
+   display: block;
+   padding: 14px 16px;
+  }
+
+  nav a:hover{
+   transition: 0.5s;
+   background-color: #e4e4e4;
+   color:
+  } */
+
+  /* nav{
+   position: fixed;
+   width: 100%;
+   top:0;
+   right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: transparent;
+   padding: 28px 12%;
+   transition: all .50s ease;
+  } */
+
+  .navbar{
+   color: var(--text-color);
+   font-size: 1.1rem;
+   font-weight: 500;
+   margin: 0px 30px;
+   display: flex;
+   position: fixed;
+   width: 100%;
+   top:0;
+   right: 0;
+   z-index: 1000;
+   align-items: center;
+   justify-content: space-between;
+   background: transparent;
+   padding: 28px 12%;
+   transition: all .50s ease;
+  }
+  .navbar a{
+   color: var(--text-color);
+   font-size: 1.1rem;
+   font-weight: 500;
+   padding: 5px 0px;
+   margin: 0px 30px;
+   transition: all .50s ease;
+  }
+
+  .navbar a:hover{
+   color: white   
+  }
+  .port{
+   color: white;
+  }
 .apresentação{
     padding-top: 10vh;
     display: flex;
@@ -63,6 +140,7 @@ body {
  }
 
 .texto_sobre_mim{
+   padding-top: 1vh;
     align-items: center;
     justify-content: center;
  } 
@@ -76,19 +154,21 @@ body {
 
  .box{
     position: relative;
-    width: 500px;
-    height:400px;
+    width:550px;
+    height: 360px;
     border-radius: 20px;
     display: grid;
     place-items: center;
     overflow: hidden;
+    padding-right: 1vh;
+    padding-bottom: 1vh;
  }
 
  .box::before{
     content: "";
     position: absolute;
     width: 600px;
-    height: 600px;
+    height: 500px;
     background-image: conic-gradient(transparent, transparent, #00ffad);
     animation:rotate 4s linear infinite;
  }
@@ -109,16 +189,10 @@ body {
     border-radius: 16px;
     background-color: #000000;
     z-index: 2;
-    width: 600px;
-    height: 270px;
-    
+    width: 540px;
+    height: 350px;
+  
  }
-/* .black_box{
-    position: absolute;
-    width: 600px;
-    height:600px;
-    background-color: black;
-} */
 
  @keyframes rotate{
     0%{
