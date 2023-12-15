@@ -1,62 +1,285 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Portfólio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon.png">
-  <meta name="description" content="Sou [seu nome], um [sua profissão] com [quantos anos de experiência] de experiência. Veja meus projetos e entre em contato.">
-
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+    <meta name="description" content="Sou Eduardo, um estudante de Ciência da Computação. Veja meus projetos e entre em contato.">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul class="navbar">
-        <li class="port"><h1 href="#meu_portifolio">Portfólio</h1></li>
-        <li><a href="#sobre-mim">Sobre Mim</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#educacao">Educação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li class="port"><h1 href="#meu_portifolio">Portfólio</h1></li>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <div class="apresentação">
-        <div class="minha_foto">
-            <img src="juji.jpeg" height="250" width="250">
-        </div>
-        <div class="texto_apresentação">
-            <a>Bem vindo ao meu portifólio,<br>sou o Eduardo Yaginuma</a>
-        </div>
-    </div>
-
-    <div class="sobre_mim">
-        <h1>Sobre mim</h1>
-        <div class="black_box">
-            <div class="box">
-                <span>
-                    <div class="texto_sobre_mim">
-                        <a><p>Meu nome é Eduardo Takei Yaginuma e atualmente curso Ciência da Computação no Insper. </p></a>
-                        <a><p>Atualmente, estou focado em aprimorar minhas habilidades de programação em Python, HTML e CSS. No meu portfólio do GitHub, você pode encontrar alguns projetos que desenvolvi durante a faculdade e que demonstram minha evolução nessas linguagens. Além disso, tive contato com as linguagens de programação Assembly e Ladder durante meu curso técnico no Colégio Técnico da Unicamp.</p></a>
-                    </div>
-                </span>
+    <main>
+        
+        <div class=" inicio">  
+            <div class="apresentação">
+                <div class="minha_foto">
+                    <img src="me.png" height="400" width="400" alt="Minha Foto">
+                </div>
+                <div class="texto_apresentação">
+                    <h3>Bem-vindo ao meu</h3> <h1 class="palavra">PORTFÓLIO!</h1><br>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="projetos">
-      <h1>Meus projetos</h1>
-      <h2>saddddddddddddddddddddddddddddd<br>saaaaaaaaaaaaaa</h2>
-    </div>
-    
+            <!-- Seção "Sobre Mim" -->
+            <div class="sobre_mim">
+                <div class="titulo_sobre_mim">
+                    <h1>Sobre mim</h1>
+                </div>
+                
+                <div class="black_box">
+                    <div class="box">
+                    </div> 
+                    <div class="texto_sobre_mim">
+                        <h3><p>Meu nome é Eduardo, me formei como técnico de eletroeletrônica e hoje curso Ciência da Computação no Insper. </p></h4>
+                        <h3><p>Atualmente, estou focado em aprimorar minhas habilidades de programação. No meu GitHub, você pode encontrar alguns projetos que desenvolvi e que demonstram minha evolução. </p></h4>
+                    </div>
+                </div>
+
+                <div class="contato-container">
+
+                    <div class="instagram">
+                        <div class="icon_instagram" id="instagram">
+                            <img src="instagram_icon.png" width="40px" height="40px">
+                        </div>
+                    </div>
+
+                    <div class="linkedin" id="linkedin">
+                        <div class="icon_linkedin">
+                            <img src="linkedin_icon.png" width="60px" height="60px">
+                        </div>
+                    </div>
+                    
+                    <div class="git" id="git">
+                        <div class="icon_git">
+                          <img src="git_icon.png" height="70px" width="70px">
+                        </div>
+                      </div>
+                </div>
+
+            </div><!-- Fim da Seção "Sobre Mim" -->
+            <br>
+        </div>
+        
+        <div class="titulo_experiencia">
+            <h1>Educação e Experiência</h1>
+        </div>
+        <!-- Seção "Experiência" -->
+        <div class="experiência">
+            
+            <div class="section1">
+                <!-- Conteúdo da primeira seção -->
+                <div class="cotuca">
+                    <h3>Técnico da Unicamp</h3>
+                    <a>2020 - 2023</a>
+                </div>
+                <div class="insper">
+                    <h3>Insper</h3>
+                    <a>2023 - 2027</a>
+                </div>
+            </div>
+        
+            <div class="section2">
+                <div class="image-container">
+                    <div class="imge_1">
+                        <img src="icon_acad.png" alt="Imagem 1" width="60px" height="60px">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="icon_acad.png" alt="Imagem 2" width="60px" height="60px">
+                    
+                </div>
+            </div>
+        
+            <div class="section3">
+                <!-- Conteúdo da terceira seção -->
+                <div class="texto_cotuca">
+                    <h4>Técnico de Eletroeletrônica</h4><br>
+                    <p>Diploma de graduação como técnico em Eletroeletrônica no <br> Colégio Técnico da Unicamp, adquirindo conceitos teóricos <br> e habilidades práticas na área. As linguagens de programação<br> que aprendi durante o técnico foram Assembly, Ladder e tive um <br>breve contato com a linguagem C.</p>
+                </div>
+                <div class="texto_insper">
+                    <h4>Graduação em Ciência da Computação</h4><br>
+                    <p>Atualmente, estudando Ciência da Computação no Insper.<br> Estou aprendendo muito e desenvolvendo projetos que exploram <br>diversos frameworks e algumas linguagens de programação. <br>Já tive a oportunidade de desenvolver projetos para a Fundação<br> Telles e para a DeltaGoal onde pude colocar em prática os conceitos<br> que aprendi e desenvolver mais das minhas softskills.</p>
+                </div>
+            </div>
+
+            <div class="section4">
+                <div>
+                    <h5>Desenvolvimento Web:</h5>
+                    <div class="topicos">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Django (Framework Python)</li>
+                            <li>Flask (Framework Python)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div>
+                    <h5>Banco de Dados:</h5>
+                    <ul>
+                        <div class="topicos">
+                            <li>SQL (para bancos de dados relacionais)</li>
+                            <li>MongoDB (Banco de dados NoSQL)</li>
+                        </div>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h5>Ciência de Dados:</h5>
+                    <ul>
+                        <div class="topicos">
+                            <li>Pandas (Python)</li>
+                        </div>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h5>Desenvolvimento de Jogos:</h5>
+                    <ul>
+                        <div class="topicos">
+                            <li>Pygame (Framework Python)</li>
+                        </div>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h5>Linguagens de Programação:</h5>
+                    <ul>
+                        <div class="topicos">
+                            <li>Python</li>
+                            <li>Assembly</li>
+                            <li>MyHDL</li>
+                            <li>VM Translator</li>
+                        </div>
+                    </ul>
+                </div>
+                
+            </div>
+        </div><!-- Fim da Seção "Experiência" -->
+
+        <!-- Seção "Meus Projetos" -->
+        <div class="projetos">
+            <h1>Meus projetos</h1><br>
+            <div class="imagens_projetos">
+                <div class="img_1">
+                    <div class="img_telles" id="img_jogo">
+                        <img src="jogo.png" height="200" width="200" alt="Imagem do Jogo">
+                        <h4>Delta Goal</h4>
+                    </div>
+                </div>
+                <div class="img_1">
+                    <div class="img_telles" id="img_telles">
+                        <img src="logotelles.png" height="200" width="200" alt="Logotipo da Fundação Telles">
+                        <h4>Fundação</h4>
+                    </div>
+                </div>
+                <div class="img_telles" id="elevador_carga">
+                    <img src="logotelles.png" height="200" width="200" alt="Logotipo da Fundação Telles">
+                    <h4>Elevador de Cargas</h4>
+                </div>
+            </div>
+        </div><!-- Fim da Seção "Meus Projetos" -->
+
+
+
+        <!-- Seção "Contato" -->
+        <!-- <div class="contato">
+            <h1>Contato</h1><br>
+            <div class="texto_contato">
+                <div class="contato-container">
+
+                    <div class="instagram">
+                        <div class="icon_instagram" id="instagram">
+                            <img src="instagram_icon.png" alt="Ícone do Instagram">
+                        </div>
+                        <div class="texto_instagram">
+                            <h4>edu_yaginuma</h4>
+                        </div>
+                    </div>
+
+                    <div class="linkedin" id="linkedin">
+                        <div class="icon_linkedin">
+                            <img src="linkedin_icon.png" alt="Ícone do LinkedIn">
+                        </div>
+                        <div class="texto_linkedin">
+                            <h4>Eduardo Takei Yaginuma</h4>
+                        </div>
+                    </div>
+
+
+                    <div class="gmail">
+                      <div class="icon_gmail">
+                        <img src="gmail_icon.png">
+                      </div>
+                      <div class="texto_gmail">
+                        <h4>eduardo.yaginuma10@gmail.com</h4>
+                      </div>
+                    </div> -->
+
+<script>
+  var jogo = window.document.getElementById("img_jogo")
+  jogo.addEventListener("click", abre_jogo)
+  var fundacao_telles = window.document.getElementById("img_telles")
+  fundacao_telles.addEventListener("click", abre_telles)
+  var elevador_cargas = window.document.getElementById("elevador_carga")
+  elevador_cargas.addEventListener("click", abre_elevador)
+
+  function abre_telles() {
+      window.location.href = "http://127.0.0.1:5500/teste.html"
+  }
+
+  function abre_jogo() {
+      window.location.href = "http://127.0.0.1:5500/teste.html"
+  }
+
+  function abre_elevador() {
+      window.location.href = "http://127.0.0.1:5500/Elevador_de_cargas.html"
+  }
+
+  var instagramIcon = window.document.getElementById("instagram")
+  instagramIcon.addEventListener("click", redirecionarInstagram)
+  var linkedinIcon = window.document.getElementById("linkedin")
+  linkedinIcon.addEventListener("click", redirecionarLinkedin)
+  var gitIcon = window.document.getElementById("git")
+  gitIcon.addEventListener("click", redirecionarGit)
+
+
+  function redirecionarInstagram() {
+  window.location.href = "https://www.instagram.com/edu_yaginuma/"
+  }
+
+  function redirecionarLinkedin() {
+  window.location.href = "https://www.linkedin.com/in/eduardo-takei-yaginuma-265185271/"
+  }
+
+  function redirecionarGit() {
+  window.location.href = "https://github.com/EduardoTakeiYaginuma"
+  }
+
+
+
+  </script>

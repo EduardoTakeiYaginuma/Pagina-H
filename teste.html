@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo js</title>
+
+    <style>
+        body{
+            background-color: rgb(174, 174, 217);
+            font: normal 20pt Arial
+        }
+
+        div#box {
+            background: green;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            line-height: 200px;
+         }
+
+    </style>
+
+ </head>
+ <body>
+    <div id="box">
+        <p>Clique aqui!</p>
+    </div>
+
+    <script>
+        
+        // window.alert("Deseja ver o conteúdo da página?")
+        // window.confirm("Tem certeza?")
+        // var nome = window.prompt("Qual o seu nome?")
+        // window.alert("Bem vindo, " + nome)
+        // -----------------------------------
+        // var n1 = Number.parseInt(window.prompt("Digite um numero")) //Transforma em int
+        // var n2 = Number(window.prompt("Digite outro numero")) //Transforma em int
+        // var n3 = String(n1) //Transforma em string
+        // var s = n1+n2
+        // window.alert("Soma é " + s)
+        // window.alert(`A soma é ${s}`) //Equivalente ao f"
+        // ----------------------------------------------
+        // var nome = window.prompt("Qual é o seu nome")
+        // document.write(`Olá ${nome} <br>`)
+        // document.write(`Seu nome tem ${nome.length} letras<br>`)
+        // document.write(`Seu nome em letras maiusculas é ${nome.toUpperCase()}<br>`)
+        // document.write(`Seu nome em letras minusculas é ${nome.toLowerCase()}`)
+        var area = window.document.getElementById("box")
+        area.addEventListener("click", clicou)
+        area.addEventListener("mouseenter", entrar)
+        area.addEventListener("mouseout", sair)
+        function clicou() {
+            area.innerText = "Clicou"
+            area.style.background = "red"
+        }
+        function entrar() { 
+            area.innerText = "Entrou"
+        }
+        function sair() {
+            area.innerText = "Saiu"
+            area.style.background = "green"
+        }
+    </script>
+
+ </body>
+ </html>
